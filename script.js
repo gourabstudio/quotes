@@ -29,5 +29,5 @@ line[6]='“Keep moving forward, you are the future.” – Sandeep Maheshwari'
 line[7]='“Attachment lead to suffering, love will set you free.” – Sandeep Maheshwari'
 line[8]='“Don’t be too serious about what you think. it’s just a point of view.” – Sandeep Maheshwari'
 line[9]='“Your desire to change must be greater than your desire to be the same.” – Sandeep Maheshwari'
-let todaysWord =line[Math.floor(Math.random()*9)]
+let todaysWord =line[Math.floor(Math.random()*10)]
 document.getElementById("quotesOfTheDay").innerHTML=todaysWord;
