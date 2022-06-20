@@ -6,7 +6,7 @@ document.getElementById("showDate").innerHTML = "Good Night"
 else if (period<12){
   document.getElementById("showDate").innerHTML = "Good Morning"
 }
-else if (period=12){
+else if (period===12){
   document.getElementById("showDate").innerHTML = "Good Noon"
 }
 else if (period<17){
